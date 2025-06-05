@@ -45,6 +45,18 @@ cd CyberPatriot-Hardening
 ```
 ---
 
+▶️ How to Run the Script
+
+Make sure the script is executable (run this only if needed):
+```
+chmod +x hardening_script.sh
+```
+Run the script with sudo privileges:
+```
+sudo ./hardening_script.sh
+```
+---
+
 🔧 Additional Info
 
 The script disables root login and password authentication over SSH for security.
