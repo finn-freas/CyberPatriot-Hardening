@@ -57,6 +57,18 @@ sudo ./hardening_script.sh
 ```
 ---
 
+📄 Script Logging
+
+The script logs its actions to:
+```
+/var/log/cyberpatriot_hardening.log
+```
+To view the log after running the script, use:
+```
+sudo cat /var/log/cyberpatriot_hardening.log
+```
+---
+
 🔧 Additional Info
 
 The script disables root login and password authentication over SSH for security.
