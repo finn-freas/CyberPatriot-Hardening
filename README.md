@@ -43,3 +43,9 @@ Clone the repository to your system:
 git clone git@github.com:finn-freas/CyberPatriot-Hardening.git
 cd CyberPatriot-Hardening
 
+🔧 Additional Info
+
+The script disables root login and password authentication over SSH for security.
+It removes insecure services like Telnet and Samba if they are installed.
+It enforces password policies and kernel hardening for better system protection.
+
