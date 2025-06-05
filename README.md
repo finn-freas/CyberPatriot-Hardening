@@ -43,6 +43,7 @@ Clone the repository to your system:
 git clone git@github.com:finn-freas/CyberPatriot-Hardening.git
 cd CyberPatriot-Hardening
 ```
+---
 
 🔧 Additional Info
 
