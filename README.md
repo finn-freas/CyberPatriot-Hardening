@@ -1,4 +1,4 @@
-# 🛡️ CyberPatriot Hardening Script for Ubuntu
+# CyberPatriot Hardening Script for Ubuntu
 
 ![Ubuntu](https://img.shields.io/badge/platform-Ubuntu-orange?logo=ubuntu)
 ![Bash](https://img.shields.io/badge/language-Bash-blue?logo=gnu-bash)
@@ -9,33 +9,33 @@ Secure your Ubuntu systems with this comprehensive hardening script designed for
 
 ---
 
-## 🚀 Features
+## Features
 
 This script performs the following tasks:
 
-- 🔄 System update & upgrade
-- 🔐 Firewall configuration (UFW)
-- 🛡️ Fail2Ban setup
-- 🧼 ClamAV installation & full malware scan
-- 🕵️‍♂️ AuditD system activity monitoring
-- 👥 User and root account lockdown
-- 🔑 Secure SSH configuration
-- 🚫 Removal of unnecessary services (e.g., Telnet, Samba)
-- 🔎 Open port & world-writable file checks
-- 🧾 Password policy enforcement
-- 🧠 Kernel parameter hardening
-- 📜 Logs actions to `/var/log/cyberpatriot_hardening.log`
+- System update & upgrade
+- Firewall configuration (UFW)
+- Fail2Ban setup
+- ClamAV installation & full malware scan
+- AuditD system activity monitoring
+- User and root account lockdown
+- Secure SSH configuration
+- Removal of unnecessary services (e.g., Telnet, Samba)
+- Open port & world-writable file checks
+- Password policy enforcement
+- Kernel parameter hardening
+- Logs actions to `/var/log/cyberpatriot_hardening.log`
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Ubuntu 20.04 or later
 - Sudo/root privileges
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repository to your system:
 
@@ -45,7 +45,7 @@ cd CyberPatriot-Hardening
 ```
 ---
 
-▶️ How to Run the Script
+How to Run the Script
 
 Make sure the script is executable (run this only if needed):
 ```
@@ -57,7 +57,7 @@ sudo ./hardening_script.sh
 ```
 ---
 
-📄 Script Logging
+Script Logging
 
 The script logs its actions to:
 ```
@@ -69,7 +69,7 @@ sudo cat /var/log/cyberpatriot_hardening.log
 ```
 ---
 
-🔧 Additional Info
+Additional Info
 
 The script disables root login and password authentication over SSH for security.
 It removes insecure services like Telnet and Samba if they are installed.
